@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<mapper nameSpace="com.butterfly.mapper.UserMapper">
+    <select id="getUserById" resultType ="com.butterfly.bean.User">
+        select * from user where id = ?
+    </select>
+</mapper>
